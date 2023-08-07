@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "HK Grotesk";
+    src: url(assets/hk-grotesk.woff2), url(assets/hk-grotesk.woff);
+}
+
+body {
+    font-family: "HK Grotesk", Arial;
+    font-size: 21px;
+    line-height: 1.25;
+
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+header {
+    position: fixed;
+    top: 33px;
+    left: 36px;
+    z-index: 1;
+}
+
+section {
+    background-color: #292F36;
+    min-height: 100vh;
+    padding: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    width: 400px;
+
+}
+
+div.content {
+    position: relative;
+}
+
+div.square {
+    width: 100px;
+    height: 100px;
+    background-color: #4ECDC4;
+
+    position: absolute;
+    top: 50px;
+    left: -50px;
+}
+
+div.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #FF6B6B;
+
+    position: absolute;
+    bottom: 50px;
+    right: -50px;
+
+    border-radius: 50%;
+}
+
+div.content img {
+    position: relative;
+}
+
+section.s2 {
+    background-color: #4A5859;
+}
+
+section.s2 div.square {
+    background-color: #F4D6CC;
+}
+
+section.s2 div.circle {
+    background-color: #F4B860;
+}
+
+section.s3 {
+    background-color: #591F0A;
+}
+
+section.s3 div.square {
+    background-color: #EFA00B;
+}
+
+section.s3 div.circle {
+    background-color: #0075C4;
+}
+
+section.s4 {
+    background-color: #3D2645;
+}
+
+section.s4 div.square {
+    background-color: #DA4167;
+}
+
+section.s4 div.circle {
+    background-color: #F0EFF4;
+}

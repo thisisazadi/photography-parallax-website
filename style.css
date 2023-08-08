@@ -34,7 +34,7 @@ section {
 }
 
 section img {
-    width: 400px;
+    width: 399px;
 
 }
 
@@ -102,4 +102,14 @@ section.s4 div.square {
 
 section.s4 div.circle {
     background-color: #F0EFF4;
+}
+
+div.progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 10px;
+    background-color: #FFFFFF;
+    z-index: 1;
 }
